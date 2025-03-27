@@ -1,13 +1,15 @@
-Package: git
-Title: What the Package Does (One Line, Title Case)
+Package: regexcite
+Title: Creating a new R packages
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Yui", "Mikuriya", , "yui.mikuriya@gmail.com", role = c("aut", "cre"))
+Description: This package provides functionality for version control using Git. It allows users to manage and track changes to their codebase efficiently.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/yui-ubc/git
 BugReports: https://github.com/yui-ubc/git/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
